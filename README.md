@@ -1,7 +1,7 @@
 # Push_swap
 
 This program takes as an argument the stack 'a' formatted as a list of integers. 
-The goal is to sort the stack with the lowest possible number of a limited set of instructions. 
+The goal is to sort the stack with the lowest possible number of the limited set of instructions. 
 These instructions are designed to manipulate the stack 'a' and the stack 'b'(which is empty at the beginning).
 In case of error, it must display "Error". Errors include for example: some arguments aren’t integers, some arguments are bigger than an integer and/or there are duplicates.
 To succeed I had to manipulate various types of algorithms and choose the most appropriate solution (out of many) for an optimized data sorting.
