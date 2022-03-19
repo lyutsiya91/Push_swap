@@ -8,7 +8,7 @@ SRCS_B = operations_pa_pb.c operations_ra_rra_rb_rrb.c operations_sa_sb.c \
 OBJS = $(SRCS:.c=.o)
 OBJS_B = $(SRCS_B:.c=.o)
 GCC = gcc
-CFLAGS = -g
+CFLAGS = -Wall -Wextra -Werror
 
 .c.o:
 	$(GCC) $(CFLAGS) -I $(LH) -c $< -o ${<:.c=.o}
